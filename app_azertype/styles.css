@@ -1,0 +1,175 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.global-section{
+    max-width: 40%;
+    min-width: 40%;
+    height: auto;
+    margin:auto;
+    margin-top: 150px;
+    border: 5px solid rgb(93, 34, 202);
+    border-radius: 5%;
+}
+.first-section{
+    max-height: 130px;
+    min-height: 120px;
+}
+.app-title{
+    margin: 5% 38% 5% 38%;
+    padding: 10px 0px 10px 0px;
+    color: rgb(93, 34, 202);
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem gray;
+}
+.sub-title{
+    color: rgb(93, 34, 202);
+    font-size: 15px;
+    margin-left: 170px;
+    padding: 10px 0px 10px 0px; 
+}
+.app-role{
+    color: rgb(93, 34, 202);
+    font-size: 12px;
+    margin-left: 60px; 
+}
+.second-section{
+    background-color: rgb(93, 34, 202);
+    max-width: 100%;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 2%;
+    /* border: 3px solid green; */
+}
+.instruction{
+    max-width: 80%;
+   margin-left: 50px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.radio-type, .input-box, .score, .btn-send{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-word{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 350px;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    text-align: justify;
+    color: rgb(93, 34, 202);
+    font-size: 1.2rem;
+    text-shadow: 0.1rem 0.1rem gray;
+    margin: 10px 0 10px 120px;
+}
+.radio-type{
+    margin: 10px 0px 5px 0;
+    font-size: 13px;
+}
+.user-text{
+    width: 250px;
+    height: 30px;
+    margin-right: 10px;
+}
+#btn{
+    margin-left: 10px;
+}
+.score{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.btn-send{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    width: 80px;
+    height: 20px;
+    color: rgb(93, 34, 202);
+    background-color: white;
+    border:none;
+}
+
+.footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: orangered;
+        margin-top: 20px;
+}
+
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.modal-wrapper{
+    position: fixed;
+    width: 200px;
+    height: 250px;
+    color: rgb(93, 34, 202);
+    background-color: white;
+    border: 5px solid rgb(93, 34, 202);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 30px;
+}
+.input-modal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.input-modal label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.input-modal input{
+    height: 25px;
+}
+.btn-sender{
+    display: flex;
+    justify-content: center;
+}
+.btn-sender button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    padding: 10px;
+    color:white;
+    background-color: rgb(93, 34, 202);
+}
+.title-modal{
+    font-size: 1rem;
+    text-shadow: 0.1rem 0.1rem gray;
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-window{
+    color:white;
+    text-align: right;
+    margin: -30px -30px 0px -30px;
+    padding:5px 0px 5px 0px;
+}
+.fermer{
+    width: 30px;
+    font-weight: bold;
+}
+.erreur-message{
+    margin-top: 10px;
+}

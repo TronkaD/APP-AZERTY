@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application AzerType !</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Votre but est de coder une application en ligne nommée “AzerType”.
+            L’objectif de cette application est d’apprendre à taper plus vite au clavier, 
+            en tapant le plus rapidement possible et dans un temps imparti des mots proposés par l’application.
+        -->
+    </header>
+    <main>
+        <section class="global-section">
+            <section class="first-section">
+                <div class="container">
+                    <div class="app-title">AzerType</div>
+                    <div class="sub-title">L'application pour écrire plus vite !</div>
+                    <div class="app-role">AzerType est une application en ligne pour apprendre à taper plus vite au clavier :)</div>
+                </div>
+            </section>
+            <section class="second-section">
+                <div class="">
+                    <div class="instruction">
+                        Choisissez votre option et tapez la proposition qui s'affiche dans le champs en dessous
+                    </div>
+                    <div class="radio-type">
+                        <div>
+                            <input type="radio" id="choice" name="choice" value="1" checked>
+                            <label for="choice">Mots</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="choice" name="choice" value="2">
+                            <label for="choice">Phrases</label>
+                        </div>
+                    </div>
+                    <div class="input-word">
+                        <div class="display-word"></div>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="text" placeholder="Entrer le text ici" class="user-text">
+                        <input type="submit"  id="btn-validate" value="Valider">
+                    </div>
+                    <div class="score">Votre Score : <span class="display-score"></span></div>
+                    <div class="btn-send">
+                        <button type="button"><a href="#modal1" class="sender">Partager</a></button>
+                    </div>
+                </div>
+            </section>
+        </section> 
+    </main>
+    <footer>
+        <div class="footer-container">
+            @copyright : TronkaD@2024
+        </div>
+    </footer>
+
+    <div class="popupBlackground modal" id="modal1" aria-hidden="true" aria-labelledby="title-modal">
+        <div class="popup modal-wrapper">
+            <div class="modal-window">
+                <div class="close-modal"><button class="fermer">X</button></div>
+            </div>
+            <div class="title-modal">Partagez votre score</div>
+            <form>
+                <div class="input-modal">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" name="nom" placeholder="Entez votre nom" id="name">
+                </div>
+                <div class="input-modal">
+                    <label for="email">A qui voulez-vous partagez?</label>
+                    <input type="email" name="email" placeholder="exemaple@gmail.com" id="email">
+                </div>
+               <div class="btn-sender">
+                    <button type="submit" id="btnEnvoieEmail">Partager</button>
+               </div>
+            </form>
+        </div>
+    </div>
+    <!-- <script src="scripts/config.js" defer></script> -->
+    <!-- <script src="scripts/script.js" defer></script> -->
+    <script src="scripts/main.js" defer></script> 
+    <script src="scripts/modal.js" defer></script> 
+</body>
+</html>
